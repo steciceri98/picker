@@ -1,0 +1,45 @@
+body{
+  background-image: url(../../img/sfondo.png);
+  background-size: cover;
+
+}
+
+h1{
+  color: #C42904 !important;
+}
+
+h4{
+  font-weight: 600;
+}
+
+input{
+  text-transform: uppercase;
+}
+
+.text-white{
+  color: #fff;
+}
+
+.bg-indian{
+  background-color: #FFD584;
+}
+
+.border-indian{
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #FFD584;
+}
+
+.form-control:focus{
+  border-color: #FFF5E0;
+}
+
+.btn-primary{
+  background-color: #954535;
+  border-color: #954535;
+}
+
+.btn-primary:hover{
+  background-color: #834333;
+  border-color: #834333;
+}
