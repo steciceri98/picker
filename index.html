@@ -1,55 +1,16 @@
 <!DOCTYPE html>
-<html lang="it" dir="ltr" class="h-100" data-bs-theme="light">
-  <head>
-    <meta name="author" content="Stefano Ciceri">
-    <meta name ="copyright" content="Stefano Ciceri" />
+<html lang="it">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PickaColor</title>
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Scegli un colore</h1>
+    <input type="color" id="colorPicker" value="#ff0000">
+    <p>Colore selezionato: <span id="colorValue">#ff0000</span></p>
 
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <script type="text/javascript" src="assets/js/jquery.js"></script>
-  </head>
-  <body class="d-flex flex-column h-100">
-    <div class="container">
-        <header class="d-flex justify-content-center py-3">
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Picker</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Library</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Palette</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          </ul>
-        </header>
-      </div>
-      <main class="flex-shrink-0">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="picker">
-                <div class="spettrum" style="background-color:#54baff;">
-                  <div class="bg-white-gradient"></div>
-                  <div class="bg-black-gradient"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">col-4</div>
-          </div>
-        </div>
-      </main>
-      <footer class="footer mt-auto py-3 bg-body-tertiary">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-          </ul>
-          <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
-</footer>
-      <script type="text/javascript" src="assets/js/main.js"></script>
-      <script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
